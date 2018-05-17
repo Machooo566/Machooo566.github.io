@@ -35,18 +35,14 @@ body {
 	padding-bottom: 50px;
 }
 
-.contact-container {
-	padding-bottom: 50px;
+#contact-container {
 	background-color: #eb4304; 
 	border-radius: 100px;
-	padding-bottom: 0px;
 	margin-right: 200px;
 	margin-left: 200px;
+	height: auto;
 }
 
-.flex-container3 {
-	padding-bottom: 200px;
-}
 
 /*============================================
 		End Main Body/Containers Styling
@@ -94,7 +90,7 @@ h1 {
 	padding-bottom: 25px;
 } 
 
-.cont-about {
+#cont-about {
 	color: #fde698;
 	float: left;
 	margin-top: 50px;
@@ -103,9 +99,7 @@ h1 {
 	font-weight: bold;
 	text-shadow: 2px 2px 4px #000000;
 }
-.cont-about img{
-	box-shadow: 2px 2px 20px #000000;
-}
+
 .cont-github {
 	color: #fde698;
 	margin-top: 100px;
@@ -255,6 +249,14 @@ h3 {
 	box-shadow: 2px 2px 10px rgba(0,0,0,0.7);
 }
 
+#my-img{
+	box-shadow: 2px 2px 20px #000000;
+	height: 400px;
+	width: 300px;
+	border-radius: 8px;
+	text-align: center;
+	margin-right: 100px;
+}
 /*=========================================
 		END IMG Styling
 =========================================*/
@@ -288,6 +290,10 @@ h3 {
 .cont-github img {
 	transition: transform .5s;
 	transform-origin: 50% 50%;
+	height: 200px;
+	width: 200px;
+	float: right;
+	margin-right: 100px;
 } 
   
 .cont-github img:hover {
@@ -297,6 +303,11 @@ h3 {
 .cont-linkin img {
 	transition: transform .5s;
 	transform-origin: 50% 50%;
+	height: 200px;
+	width: 200px;
+	float: right;
+	margin-right: 100px;
+	margin-bottom: auto;
 }
 
 .cont-linkin img:hover {
